@@ -1,3 +1,4 @@
+/// <reference path='ITaskLoadNPMTasksMethod.ts'/>
 /// <reference path='ITaskLoadTasksMethod.ts'/>
 /// <reference path='ITaskRegisterMultiTaskMethod.ts'/>
 /// <reference path='ITaskRegisterTaskMethod.ts'/>

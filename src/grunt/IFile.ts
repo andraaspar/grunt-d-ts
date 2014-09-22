@@ -1,8 +1,10 @@
 /// <reference path='IFileCopyOptions.ts'/>
 /// <reference path='IFileDeleteOptions.ts'/>
+/// <reference path='IFileExpandMappingOptions.ts'/>
 /// <reference path='IFileExpandOptions.ts'/>
 /// <reference path='IFileReadOptions.ts'/>
 /// <reference path='IFileRecurseCallback.ts'/>
+/// <reference path='ISrcDestFileMapping.ts'/>
 
 module grunt {
 	export interface IFile {
