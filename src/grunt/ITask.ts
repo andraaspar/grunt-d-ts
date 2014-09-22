@@ -30,7 +30,7 @@ module grunt {
 		
 		
 		
-		loadNPMTasks: ITaskLoadNPMTasksMethod;
+		loadNpmTasks: ITaskLoadNPMTasksMethod;
 		
 		
 		

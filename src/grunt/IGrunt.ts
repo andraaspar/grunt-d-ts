@@ -32,7 +32,7 @@ module grunt {
 		registerMultiTask: ITaskRegisterMultiTaskMethod;
 		renameTask: ITaskRenameTaskMethod;
 		loadTasks: ITaskLoadTasksMethod;
-		loadNPMTasks: ITaskLoadNPMTasksMethod;
+		loadNpmTasks: ITaskLoadNPMTasksMethod;
 		
 		template: ITemplate;
 		
