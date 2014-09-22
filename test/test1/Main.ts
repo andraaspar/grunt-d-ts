@@ -1,12 +1,5 @@
-/// <reference path='../../src/grunt.d.ts'/>
+/// <reference path='../../src/grunt/IGrunt.ts'/>
 
-module test1 {
-	export class Main {
-		
-		private static instance = new Main();
-		
-		constructor() {
-			grunt.config.init({});
-		}
-	}
+function test(grunt: grunt.IGrunt) {
+	grunt.initConfig({});
 }
