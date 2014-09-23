@@ -2,7 +2,7 @@
 
 module grunt {
 	export interface ISrcDestFileMapping {
-		src: any;
+		src: string[];
 		dest: string;
 		orig: any;
 	}
