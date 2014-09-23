@@ -1,4 +1,5 @@
 /// <reference path='IConfigInitMethod.ts'/>
+/// <reference path='IConfigRequiresMethod.ts'/>
 
 module grunt {
 	export interface IConfig {
@@ -37,6 +38,6 @@ module grunt {
 		
 		
 		
-		requires(prop: string, ...props: string[]): void;
+		requires: IConfigRequiresMethod;
 	}
 }

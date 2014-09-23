@@ -1,3 +1,4 @@
+/// <reference path='ITaskCurrentMulti.ts'/>
 /// <reference path='ITaskLoadNPMTasksMethod.ts'/>
 /// <reference path='ITaskLoadTasksMethod.ts'/>
 /// <reference path='ITaskRegisterMultiTaskMethod.ts'/>
@@ -6,6 +7,10 @@
 
 module grunt {
 	export interface ITask {
+		current: ITaskCurrentMulti;
+		
+		
+		
 		registerTask: ITaskRegisterTaskMethod;
 		
 		
